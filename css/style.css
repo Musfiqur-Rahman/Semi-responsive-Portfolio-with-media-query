@@ -1,0 +1,397 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	font-family:sans-serif;
+}
+h1{
+	color: #1bbece;
+    font-size: 2.25rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+h6{
+	color: #8ebf3f;
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 10px;
+}
+p{
+	color: #a7a7a7;
+    line-height: 1.8;
+    font-size: 1rem;
+    text-align: center;
+}
+section{
+	padding-top:100px;
+	padding-bottom:50px;
+}
+.container{
+	width:1100px;
+	margin:auto;
+	overflow:hidden;
+	text-align:center;
+}
+.col-33{
+	width:33%;
+	float:left;
+	text-align:center;
+}
+.col-25{
+	width:25%;
+	float:left;
+	text-align:center;
+}
+.col-50{
+	width:50%;
+	float:left;
+	text-align:center;
+}
+.content{
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:5px;
+}
+i{
+	font-size:2rem;
+	color:yellow;
+}
+.btn{
+	padding: 10px 25px;
+    background-color: #8c1e8d;
+    border: 0px;
+    border-radius: 25px;
+    font-size: .95rem;
+    text-transform: uppercase;
+    color: white;
+}
+/* -- Header Part -- */
+header{
+	padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    position: fixed;
+    background-color: #00000075;
+    overflow: hidden;
+    z-index: 99;
+}
+.company{
+	padding-left:35px;
+	float:left;
+}
+.company img{
+	float:left;
+	display:block;
+}
+.company h2{
+	float:left;
+	color:white;
+	font-size:2rem;
+	text-transform:uppercase;
+	margin:10px;
+}
+#main-menu{
+	padding-right:35px;
+	float:right;
+	margin-top: 15px;
+}
+#main-menu ul{
+	list-style:none;
+}
+#main-menu ul li{
+	float:left;
+	margin:auto 1px;
+}
+#main-menu ul li a{
+	padding:10px 25px;
+	text-transform:uppercase;
+	text-decoration:none;
+	color:white;
+	font-size:.95rem;
+}
+#main-menu ul li a:hover{
+	background-color:black;
+	color:#fd00ff;
+}
+.active a{
+	background-color:black;
+	color:#fd00ff !important;
+}
+/* -- Home Part -- */
+#home{
+	background-image:url('../images/banner.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding-bottom:0px;
+}
+#home .author_text{
+	text-align:left; 
+	margin-top:150px;
+}
+#home p{
+	text-align: left;
+    color: #29cada;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+#home h6{
+	text-align:left;
+	color:white; 
+	font-size: 1.5rem;
+	text-transform: uppercase;
+}
+#home h2{
+	color: #29cada;
+    font-size: 2.25rem;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+#home img{
+	height: 400px;
+    width: auto;
+    float: right;
+    margin-top: -250px;
+   
+}
+#home .btn:hover{
+	background-color:#e40404;
+}
+/* -- About me Part -- */
+#progress .col-33{
+	margin-top:10px;
+	margin-bottom:20px;
+}
+#progress h5{
+	text-align:left;
+	color: #6d6c6c;
+    text-transform: uppercase;
+}
+.progressbar{
+	height: 10px;
+    width: 100%;
+    background-color: #dcdcdc;
+    border-radius: 5px;
+	margin:10px auto;
+}
+.progress-achieve{
+	height:10px;
+	width:100%;
+	background-color:yellow;
+	border-radius: 5px;
+}
+/* -- Services Part -- */
+#service{
+	background-image:url('../images/serv.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+#service .content{
+	background-color:#ffffff47;
+	border-radius:5px;
+	padding:55px;
+}
+#service .content:hover{
+	background-color:#960e92ad;
+}
+#service h3{
+	margin-top:25px;
+	margin-bottom:25px;
+	color:white;
+	text-transform:uppercase;
+}
+#service p{
+	font-size:.9rem;
+	color:white;
+}
+/* -- Project Part -- */
+#project img{
+	height:250px;
+	width:100%;
+}
+#project .content{
+	position:relative;
+}
+#project .overlay{
+	position:absolute;
+	bottom:10px;
+	background-color: black;
+    left: 10px;
+    right: 10px;
+    padding: 15px;
+    color: white;
+    text-transform: uppercase;
+	display:none;
+}
+#project .content:hover .overlay{
+	display:block;
+}
+/* -- Review Part -- */
+#review{
+	background-image:url('../images/portfolio.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+#review h3{
+	font-size:2rem;
+	color:white;
+	margin:25px auto 30px;
+}
+#review h5{
+	font-size:1rem;
+	color:white;
+}
+/* -- Contact Part -- */
+#contact{
+	background-image:url('../images/contact2.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+#contact h1{
+	color:#eee;
+	margin-bottom:35px;
+}
+#contact form input, #contact form textarea{
+	width:100%;
+	background-color: transparent;
+    font-size: 1rem;
+    padding: 10px;
+	margin-bottom:15px;
+	border:1px solid white;
+	box-sizing:border-box;
+	border-radius:5px;
+}
+#contact textarea{
+	height:150px;
+}
+#contact button{
+	border-radius: 5px;
+    padding: 15px 35px;
+    background-color: #960e92;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#address{
+	margin:50px auto 25px;
+}
+#address p{
+	font-size:.9rem;
+	color:white;
+	margin-top:15px;
+}
+/* ====== Footer Part ======= */
+footer{
+	overflow:hidden;
+	background-color:#6d6c6c;
+	padding:25px 0;
+}
+#copyright{
+	float:left;
+	margin:15px;
+	text-align:left;
+	color:white;
+}
+#social{
+	float:right;
+}
+#social ul{
+	list-style:none;
+}
+#social ul li{
+	float:left;
+	margin:10px 15px;
+	height:20px;
+	width:25px;
+	height: 20px;
+    border: 2px solid white;
+    border-radius: 50%;
+	padding-top:5px;
+	text-align:center;
+}
+#social ul li:last-child{
+	margin-right:0px;
+}
+#social ul li a i{
+	font-size:.8rem;
+	color:white;
+}
+#upper{
+	position:fixed;
+	right:25px;
+	bottom:25px;
+	background-color:#a7a7a7;
+	border-radius:50%;
+	height:30px;
+	width:40px;
+	text-align:center;
+	padding-top:10px;
+}
+#upper i{
+	font-size:1rem;
+	color:white;
+}
+/* ---- ============ Device View ============ ---- */
+
+@media(max-width:1100px){
+	.container{
+		width:100%;
+	}
+}
+
+
+@media(max-width:576px){
+	.col-25, .col-33, .col-50{
+		width:100%;
+	}
+	/* --- Home Part --- */
+	#home .col-50{
+		width:50%;
+	}
+	#home img{
+		height:175px;
+	}
+	#home .author_text{
+		margin-top:25px;
+	}
+	#home p{
+		font-size:.75rem;
+	}
+	#home h6{
+		font-size:.9rem;
+	}
+	#home h2{
+		font-size:1.25rem;
+		margin-bottom:10px;
+	}
+	#home .btn{
+		font-size:.75rem;
+		padding:7px 15px;
+	}
+	
+	/* --- Review Part --- */
+	#review .col-25{
+		width:50%;
+	}
+	#review .content{
+		margin-top:30px;
+	}
+	/* --- footer Part --- */
+	#copy-right, #social{
+		float:none;
+		text-align:center;
+	}
+	#social ul{
+		margin-left:25%;
+	}
+	
+}
+
+
+
+
+
+
